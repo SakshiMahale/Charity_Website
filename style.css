@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*the white, green, yellow text on the home page*/
+
+.txt1 b{
+    color: #FFFF00;
+}
+.txt h1 {
+    font-size: 70px;
+    color: 	#008000;
+  }
+  .txt{
+    margin-left: 60px;
+    margin-top: 80px;
+  }
+  .txt1{
+    margin-left: 900px;
+  }
+
+  body{
+    width: 100%;
+  }
+  /*Background image on home*/
+.bg{
+    background-image: url(../images/charity_9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Navbar*/
+
+.navbar-nav{
+    align-items: center;
+  }
+  .header_wrapper .navbar{
+    padding: .2rem 0;
+   
+    opacity:1.5;
+  }
+    .header_wrapper .nav-item .nav-link{
+      font-size: 1rem;
+      font-weight: 500;
+      display: inline-block;
+      color: #fff;
+    }
+    .header_wrapper .nav-item .nav-link:hover{
+      color: 	#008000;
+    }
+  /*Buttos on home page*/
+  .btn {
+    margin-bottom: 80px;
+    background-color: 	#008000;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+  .button1 {
+    background-color:transparent; 
+    color: #fff; 
+    border: 2px solid 	#008000;
+    width: 230px;
+    height: 30px;
+    font-weight: bold;
+  }
+  
+.button1:hover {
+    background-color: 	#008000;
+    color: #fff;
+  }
+  /*The navbrand image*/
+  .container .nav-brand img{
+    border-radius: 50%;
+  }
+  /*Name of website*/
+  .container .navbar-brand b{
+    font-size: 35px;
+     color: #FFFF00;
+  }
+
+
+  /*ABOUT US*/
+/*Text and container of about us*/
+#about_me .container{
+  width: 100%;
+  position: relative;
+}
+
+#about_me .container h1{
+  font-size: 50px;
+  font-weight: bolder;
+  color: #FFFF00;
+} 
+
+#about_me .container .content{
+  margin-left: 30%;
+  padding: 30px 5% 40px 20%;;
+  background-color: 	#008000;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+ }
+ /*The about us image*/
+
+#about_me .container .img {
+  position: absolute;
+  background: url('../images/charity_8.jpg');
+  width: 40%;
+  height: 350px;
+  top: 20%;
+  left: 5%;
+} 
+.txt h3, .txt h2{
+  color: #fff;
+}
+
+/*Services*/
+.our_services{
+  margin-top: 30px;
+}
+
+.our_services h6{
+  text-align: center;
+  color:	#008000;
+}
+.our_services h1{
+  text-align: center;
+  margin-bottom:30px ;
+}
+.card-block{
+  background-color: #fff;
+}
+.card-block h2{
+  color: 	#008000;
+  margin-bottom: 40px;
+transform: translate(-5%,30%);
+}
+.container .col-md-4{
+  width: 25%;
+}
+
+/*Contact Us*/
+.contact_us h5{
+  text-align: center;
+  color: 	#008000;
+}
+.contact_us {
+  position: relative;
+  text-align: center;
+  opacity: 1.5;
+}
+/*The Address, email, phone number details info headings*/
+.top-left {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  padding: 10px;
+  color: #FFFF00;
+  font-size: 20px;
+  width: 20%;
+}
+.top-left1 {
+  position: absolute;
+  top: 180px;
+  left: 1px;
+  padding: -10px;
+  color: #FFFF00;
+  font-size: 20px;
+  width:100%;
+  height: 50%;
+}
+.top-left2 {
+  position: absolute;
+  top: 90px;
+  left: 1px;
+  padding: 15px;
+  color: #FFFF00;
+  font-size: 20px;
+  width: 100%;
+  height: -40%;
+}
+.top-left p{
+  color: white;
+}
+/*The form on contact us*/
+.messageform {
+  width: 200%;
+  margin-left: 400px;
+  margin-top: -270px;
+}
+.messageform .forms {
+  width: 80%;
+  margin: 50px auto;
+}
+.messageform input , .messageform #inputbox {
+  width: 100%;
+  color: #000;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+ ::placeholder{
+  font-weight: bolder;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+/*The send message button*/
+.messageform button {
+  padding: 10px 50px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(to right , transparent 50% , hwb(63 0% 0%) 50%);
+  background-size: 200%;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: .3s;
+}
+.messageform button:hover {
+  background-position: right;
+  color: #000;
+}
+
+/*DONATE*/
+
+.donate-card{
+  display: flex;
+}
+
+#donate h5{
+  margin-top: 30px;
+  color: 	#008000;
+  text-align: center;
+}
+.donate_us{
+  width: 80%;
+}
+.text{
+  color: #000;
+  height: 50%;
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.text h2{
+  margin-left: 20px;
+}
+.text p{
+  text-align: left;
+}
+.donate-card .container{
+
+  width: 90%;
+padding: 15px 50px;
+
+}
+/*The grey value buttons*/
+.button2 {
+  color: 	#008000;
+  padding: 20px 22px;
+  cursor: pointer;
+  border: 2px solid #808080;
+}
+/*the green valu button (20000)*/
+.button3{
+  padding: 20px 22px;
+  background-color: 	#008000;
+   color: white;
+}
+/*The other amount section*/
+.form2 input[type=text] {
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #fff;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px;
+}
+.form2 ::placeholder{
+color: #000;
+}
+/*The rupee icon*/
+
+.fa-solid{
+  align-items: center;
+  border: 2px solid #000;
+  padding: 15px;
+}
+.container b{
+  font-weight: 900;
+  margin-right: 20px;
+}
+.container button{
+  display:inline-flex;
+  padding:20px 15px;
+}
+/*The visa or gpay option buttons*/
+.container .button4{
+  color:#008000;
+  padding: 10px 70px;
+  border: none;
+}
